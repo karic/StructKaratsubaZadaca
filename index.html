@@ -1,0 +1,27 @@
+<!doctype html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="css/grid.css">
+    </head>
+    <body>
+        <p> You should normally use your browser profiler, but we will use performance.now() to measure performance of eash multiplication algorithm.</p>
+        <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <input id="Karatsuba" type="button" value="Karatsuba" onclick="executeKarat();" />
+                <input id="karatsubaTime" type="number" name="karatsubaTime" readonly>
+            </div>
+            <div class="col-4">
+                <input id="x" type="number" name="x">
+                <input id="y" type="number" name="y">
+            </div>
+            <div class="col-4">
+                <input id="Standard" type="button" value="Standard" onclick="executeStandard();" />
+                <input id="standardTime" type="number" name="standardTime" readonly>
+            </div>
+        </div>
+        </div>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
